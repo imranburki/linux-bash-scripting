@@ -1,4 +1,4 @@
-📌 *Task Overview*
+#Task Overview
 This project contains a Bash script that automates the backup of system logs from the /var/log directory. The script performs the following tasks:
 
 Creates a backup of the /var/log directory.
