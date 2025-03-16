@@ -33,4 +33,13 @@ Removes backups older than 7 days using **find** command.
 Logs the Process   
 
 Writes logs to **/var/log/backup_script.log** for tracking execution.  
-## How to Use
+## How to Use  
+1. **Clone the Repository**
+   `git clone https://github.com/your-username/bash-backup-script.git`
+   `cd logs-backup-script.sh`
+2. **Make the Script Executable**
+   `chmod +x backup_script.sh`
+3. **Run the Script (Requires root privileges)**
+   `sudo ./backup_script.sh`
+4. **Check Logs for Execution Status**
+   `cat /var/log/backup_script.log`
