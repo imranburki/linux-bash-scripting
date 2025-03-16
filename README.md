@@ -4,14 +4,14 @@ This project contains a Bash script that automates the backup of system logs fro
 Creates a backup of the /var/log directory.
 Compresses the backup with a timestamped filename.
 Deletes backups older than 7 days to manage storage efficiently.
-🛠 Features
+## Features
 ✅ Automated Backup: Creates and compresses log backups.
 ✅ Timestamped Files: Ensures each backup has a unique timestamped filename.
 ✅ Auto Cleanup: Deletes backups older than 7 days.
 ✅ Logging: Logs backup status and errors for troubleshooting.
 ✅ Modular & Efficient: Uses best practices in Bash scripting.
 
-📜 Script Details
+## Script Details
 The script performs the following steps:
 
 Defines Variables
@@ -33,4 +33,4 @@ Removes backups older than 7 days using find command.
 Logs the Process
 
 Writes logs to /var/log/backup_script.log for tracking execution.
-🚀 How to Use
+## How to Use
